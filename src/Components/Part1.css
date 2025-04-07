@@ -1,0 +1,12 @@
+#container1{
+    margin-top: 80px;
+    display: flex;
+}
+#row-2-1{
+     background-color: pink;
+     flex-direction: column;
+}
+#row-2-2{
+    background-color: rgb(212, 73, 97);
+    flex-direction: column;
+}
