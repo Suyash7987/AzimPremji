@@ -4,6 +4,7 @@
     width: 100%;
     padding-top: 32px;
     padding-bottom: 8px;
+    position: relative;
 }
 #topimg1{
      position: absolute;
@@ -13,13 +14,13 @@
 }
 #topimg2{
      position: absolute;
-     top: 13.5%;
-     left: 11%;
+     top: 65%;
+     left: 12%;
 }
 #topimg3{
     position: absolute;
-    top: 13.5%;
-    left: 6.5%;
+    top: 65%;
+    left: 5.5%;
 }
 #topimg4{
      position: absolute;
@@ -89,6 +90,7 @@ margin-top: 20px;
      background-color: #fff;
      box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.452);
      border-radius: 20px;
+     z-index: 999;
 }
 
 #dropdown2{
@@ -102,6 +104,7 @@ margin-top: 20px;
     margin-top: 20px;
     flex-direction: column;
     color:black;
+    z-index: 999;
     background-color: #fff;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.452);
 }#dropdown3 {
@@ -113,6 +116,7 @@ margin-top: 20px;
     margin-top: 20px;
     color: black;
     background-color: #fff;
+    z-index: 999;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.452);
 }
 
