@@ -2,13 +2,13 @@ import React from 'react';
 import './Part1.css';
 
 function Part1() {
-  return (
+ return (
     <div className="container py-4">
       <div className="row">
         {/* Left Column */}
         <div className="col-md-8">
           <div className="card mb-4">
-            <img src="https://via.placeholder.com/800x400" alt="Main" className="card-img-top" />
+            <img id="Img1"src="./Image1.png" alt="Main" className="card-img-top" />
             <div className="card-body">
               <span className="badge bg-light text-dark">CLASSROOM</span>
               <h5 className="card-title mt-2">Montessori Approach...</h5>
@@ -21,7 +21,7 @@ function Part1() {
           <div className="row">
             <div className="col-md-6">
               <div className="card mb-3">
-                <img src="https://via.placeholder.com/400x200" alt="Card1" className="card-img-top" />
+                <img id='Img2' src="./Image2.png" alt="Card1" className="card-img-top" />
                 <div className="card-body">
                   <span className="badge bg-light text-dark">CLASSROOM</span>
                   <h6 className="card-title">My Pedagogical Experience...</h6>
@@ -34,7 +34,7 @@ function Part1() {
 
             <div className="col-md-6">
               <div className="card mb-3">
-                <img src="https://via.placeholder.com/400x200" alt="Card2" className="card-img-top" />
+                <img id='Img3' src="./Iamge3.png" alt="Card2" className="card-img-top" />
                 <div className="card-body">
                   <span className="badge bg-light text-dark">FEATURES</span>
                   <h6 className="card-title">Fun with Fractions</h6>
@@ -70,7 +70,7 @@ function Part1() {
           <div className="card mb-3">
             <div className="row g-0">
               <div className="col-4">
-                <img src="https://via.placeholder.com/100" className="img-fluid rounded-start" alt="Small" />
+                <img id='Img4' src="./Image4.png" className="img-fluid rounded-start" alt="Small" />
               </div>
               <div className="col-8">
                 <div className="card-body p-2">
@@ -81,6 +81,8 @@ function Part1() {
               </div>
             </div>
           </div>
+
+
         </div>
       </div>
 
@@ -95,5 +97,4 @@ function Part1() {
     </div>
   );
 }
-
 export default Part1;
