@@ -167,7 +167,7 @@ function Part1() {
           </div>
         </div>
 
-        {/* All Articles Button */}
+        {/* Button */}
         <div className="row mt-4">
           <div className="col text-center">
             <button id="resourcebtn" className="btn btn-dark" style={{marginBottom:"150px"}}>
@@ -177,6 +177,7 @@ function Part1() {
         </div>
       </div>
       <img className="d-none d-md-block" style={{width:"100%" , position:"absolute",left:"0",top:"94%"}} src="./lines-bottom.png" alt="" />
+      <img className="d-block d-md-none" style={{width:"100%",position:"absolute",left:"0",top:"98.7%"}} src="./lines-bottomsmall.png" alt="" />
     </div>
   );
 }

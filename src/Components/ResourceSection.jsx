@@ -16,7 +16,6 @@ function ResourcesSection() {
       backgroundColor: "#E9C5DA",
       color: "#661C43",
       backgroundColor2:"#F8ECD8",
-
       span: "WORKSHEETS",
       title: "Addendum to Lessons from Proofs",
       title2: "by Shailesh Shirali |  17 Nov 2024",
@@ -54,10 +53,12 @@ function ResourcesSection() {
   ];
   return (
     <div
+    id="ResContMain"
       className="container-fluid py-5"
-      style={{ backgroundColor: "#f3e2c9" }}
+      style={{ backgroundColor: "#f3e2c9" ,position:"relative"}}
     >
-      <img style={{width:"100%" , position:"absolute",left:"0",top:"0"}} src="./ResourcePageImg/lines-top.png" alt="" />
+      <img className="d-none d-md-block" style={{width:"100%" , position:"absolute",left:"0",top:"0"}} src="./ResourcePageImg/lines-top.png"/>
+      <img  className="d-block d-md-none" style={{width:"100%" , position:"absolute",left:"0",top:"0"}} src="/linetopsmall.png" />
       <div className="container" style={{marginTop:"150px"}}>
         {/* Section Title */}
         <img src="./ResourcePageImg/icons-13.png" alt="" />
@@ -177,6 +178,8 @@ function ResourcesSection() {
           </button>
         </div>
       </div>
+      <img  className="d-none d-md-block" id="Linebottom" src="./ResourcePageImg/lines-bottom.png" alt="" />
+       <img className="d-block d-md-none" style={{width:"100%" , position:"absolute",left:"0",top:"98.9%"}} src="/lines-bottomsmall.png"  />
     </div>
   );
 }
